@@ -90,7 +90,7 @@ if __name__ == "__main__":
 		#int(response)
 		print "read_data", response #,type(response)
 		print len(response)
-		time.sleep(5)
+		time.sleep(0.1)
 		if len(response)==12 or len(response)==13:
 			new_string=True
 		if new_string:
